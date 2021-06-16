@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+	<table>
+		<tr class="totals">
+			<th>Wins</th>
+			<th>Ties</th>
+			<th>Loses</th>
+		</tr>
+		<tr class="totals">
+			<td id="winsOutput"></td>
+			<td id="tiesOutput"></td>
+			<td id="losesOutput"></td>
+		</tr>
+		<tr class="game">
+			<th>Your Move</th>
+			<th>Result</th>
+			<th>A.I. Move</th>
+		</tr>
+		<tr class="game">
+			<td id="humanInput"></td>
+			<td id="output"></td>
+			<td id="compInput"></td>
+		</tr>
+		<tr class="game">
+			<td colspan="3">
+				<form>
+					<input type="button" value="Rock 🗿" onclick="rps('r')"/></input>
+					<input type="button" value="Paper 📃" onclick="rps('p')"/></input>
+					<input type="button" value="Scissors ✂️" onclick="rps('s')"/></input>
+				</form>
+			</td>
+		</tr>
+	</table>
+	<p class="credit">made by Zachary Robinson</p>
+	<script src="script.js"></script>
+</body>
+</html>

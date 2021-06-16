@@ -1,0 +1,26 @@
+body, input {
+	font-size: 36px;
+	font-family: "Poppins";
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 6px;
+	text-align: center;    
+}
+.totals {
+	font-size: 24px;
+}
+.game {
+	font-size: 36px;
+}
+.credit {
+	font-size: 14px;
+	text-align: center;
+}
